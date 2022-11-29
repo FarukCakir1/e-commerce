@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+    html {
+        @apply font-mono
+    }
+}
+
+@layer utilities {
+    .scrollbar::-webkit-scrollbar{
+        appearance: none;
+    }
+
+    .wordspace{
+        word-spacing: 20px;
+    }
+    .tiny-word-space{
+        word-spacing: 1px;
+    }
+}
